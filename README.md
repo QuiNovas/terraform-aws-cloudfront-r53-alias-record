@@ -12,11 +12,11 @@ A simple Terraform AWS Module for creating A or AAAA alias records for cloudfron
 
 ### Usage
 ```
-module "demo_api_docs_cloudfront" {
+module "app_example_com_cloudfront" {
   domain_name = "d1axyz23bpq4cl.cloudfront.net"
   name        = "app.example.com"
   zone_id     = "Z3P5QSUBK4POTI"
-  
+
   source = "QuiNovas/cloudfront-r53-alias-record/aws"
 }
 
